@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "GrpcGreeter.BackgroundServiceServer"
+		},
+		{
+			"path": "GrpcGreeter.ClientLib"
+		},
+		{
+			"path": "GrpcGreeter.ClientServerStreaming"
+		},
+		{
+			"path": "GrpcGreeter.GrpcServices"
+		},
+		{
+			"path": "GrpcGreeter.Proto"
+		},
+		{
+			"path": "GrpcGreeter.Server"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "GrpcGreeter.BackgroundServiceServer": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

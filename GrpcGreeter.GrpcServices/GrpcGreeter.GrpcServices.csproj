@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.10.1" />
+    <PackageReference Include="Grpc" Version="2.25.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.25.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="..\GrpcGreeter.Proto\greeter.proto" GrpcServices="Server" Link="Protos\greeter.proto" />
+  </ItemGroup>
+
+</Project>
